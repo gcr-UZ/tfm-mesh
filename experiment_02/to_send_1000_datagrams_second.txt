@@ -1,0 +1,39 @@
+Given that your datagram size is **1460 bytes**, you want to send one datagram every millisecond. This means you need to calculate the appropriate bandwidth (bitrate) for 1000 datagrams per second, each of 1460 bytes.
+
+### Step-by-Step Calculation
+
+1. **Determine the size of the datagram in bits:**
+   - Each datagram is **1460 bytes**.
+   - Convert this to bits:  
+     \( 1460 \, \text{bytes} \times 8 = 11680 \, \text{bits} \).
+
+2. **Calculate the required bitrate for 1000 datagrams per second:**
+   - Since you want to send one datagram per millisecond (i.e., 1000 datagrams per second):
+     \[
+     11680 \, \text{bits} \times 1000 \, \text{datagrams/sec} = 11.68 \, \text{Mbps}.
+     \]
+
+3. **Construct the `iperf3` command:**
+   Now, you can specify the bitrate and datagram size in your `iperf3` command to send one 1460-byte datagram every millisecond.
+
+   ```bash
+   iperf3 -c <server-ip> -u -b 11.68M -l 1460 -t 10
+   ```
+   - `-u`: Use UDP protocol.
+   - `-b 11.68M`: Set the bandwidth to 11.68 Mbps.
+   - `-l 1460`: Set the datagram size to 1460 bytes.
+   - `-t 10`: Run the test for 10 seconds (adjust this as needed).
+
+### Explanation
+
+This command will send 1460-byte datagrams at a rate of 11.68 Mbps, resulting in one datagram being sent every millisecond, which corresponds to 1000 datagrams per second.
+
+If everything is set up correctly, this should achieve the desired behavior of sending a single UDP datagram every millisecond.
+
+
+
+
+
+## FILTRAR PARA QUE SOLO SALGAN LOS iperf3
+((((udp) && (udp.dstport == 5201)) && (udp.length == 1468)) && (wlan.ta == 00:c0:ca:b2:bc:1a))
+((udp) && (udp.dstport == 5201)) && (wlan.ta == 00:c0:ca:b2:bc:1a)

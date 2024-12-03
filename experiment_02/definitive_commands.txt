@@ -1,0 +1,58 @@
+Abrir terminales:
+1 horizontal 
+otra horizontal
+en la de arriba, una vertical
+En la vertical derecha, una horizontal
+En las dos horizontales arriba derecha, ir a cd scripts/ y wireshark en la primera, set_managed y exp_start en la 2a
+En la de arriba izq, iw dev, iwconfig y sudo wpa_cli set_network 0 bgscan "simple:30:-120:86400"
+Las dos de abajo para python graphs
+tshark -i wlx00c0cab3c2de -w /home/oem/master/tfm/000_experiments/exp_final/results/wireshark/data_intel_mon_alfa2_05.pcapng
+
+TELEOPERACION (envio de video + comandos)
+retardo
+jitter
+perdida paquetes
+ancho de banda
+
+
+### FILTRO WIRESHARK PAQUETES IPERF
+(((((udp) && (udp.srcport == 5201))) && (data.len == 1460)) && (wlan.ra == 00:c0:ca:b2:bc:1a)) && !(wlan.fcs.status == "Bad")
+data_alfa1_mon_intel_02_filtered
+(((((udp) && (udp.srcport == 5201))) && (data.len == 125)) && (wlan.ra == 00:c0:ca:b2:bc:1a)) && !(wlan.fcs.status == "Bad")
+(((((udp) && (udp.srcport == 5201))) && (data.len == 625)) && (wlan.ra == 00:c0:ca:b2:bc:1a)) && !(wlan.fcs.status == "Bad")
+
+
+## IMPORTANTES
+-> Muestra info sobre la interfaz
+iw list
+-> Para obtener RSSI y el AP al que esta conectado
+iwconfig
+iwconfig <interface>
+-> Para obtener canal en el que esta operando
+iw dev
+
+# Log supplicant
+sudo wpa_cli log_level debug
+sudo journalctl -b 0 -u wpa_supplicant.servicewpa_supplicant -f -o short-iso-precise > 01_journal.txt
+sudo wpa_cli
+set_network 0 bgscan "simple:30:-120:86400"
+
+# iperf
+iperf3 -c 192.168.0.14 -u -b 11.68M -l 1460 -t 5 -i 0.1 --forceflush -R | ts '%Y%m%d-%H:%M:%.S'
+
+# rssi
+./ap_rssi.sh
+
+# Tiempo roaming con wireshark
+Con la intel me va la captura en modo MONITOR
+(ACORDARSE DE DECIRLE AL NETWORK MANAGER QUE NO CONTROLE EL LA TARJETA sudo vi /etc/NetworkManager/NetworkManager.conf)
+Con las otras dos, aun no. Investigar. Leer https://wiki.wireshark.org/CaptureSetup/WLAN
+
+# Captura wireshark desde terminal
+tshark -i wlp0s20f3 -w /home/oem/master/tfm/000_experiments/exp_final/results/wireshark/data_alfa1_mon_intel_10_manual.pcapng
+
+## Para sacar el time en hola.txt
+cat hola.txt | grep Arrival | cut -d ':' -f 4
+
+## iperf 1 paquete cada segundo
+iperf3 -c 192.168.68.101 -u -b 1000 -l 125 -t 100 -i 1 --forceflush -R | ts '%Y%m%d-%H:%M:%.S

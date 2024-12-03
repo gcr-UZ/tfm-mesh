@@ -1,0 +1,51 @@
+## IMPORTANTES
+-> Muestra info sobre la interfaz
+iw list
+-> Para obtener RSSI y el AP al que esta conectado
+iwconfig
+iwconfig <interface>
+-> Para obtener canal en el que esta operando
+iw dev
+-> Modifica conf NetworkManager (PORQUE LA TARJETA QUE PONGA EN MONITOR, ES MEJOR QUE NO LA MANEJE EL NM)
+sudo vi /etc/NetworkManager/NetworkManager.conf
+sudo systemctl restart NetworkManager
+-> iperf
+iperf3 -c 192.168.68.101 -u -b 11.68M -l 1460 -t 10 -i 0.1 --forceflush | ts '%Y%m%d-%H:%M:%.S'
+iperf3 -c 192.168.68.101 -u -b 11.68M -l 1460 -t 10 -i 0.1 --forceflush -R | ts '%Y%m%d-%H:%M:%.S'
+
+## MODO VIRTUAL
+sudo iw phy phy0 interface add mon0 type monitor
+sudo ip link set mon0 up
+sudo iw dev mon0 del
+
+## MODO FISICO (Alfa1 - AC)
+sudo ifconfig wlx00c0cab2bc1a down; sudo iwconfig wlx00c0cab2bc1a mode monitor; sudo ifconfig wlx00c0cab2bc1a up; sudo iw phy phy5 set channel 36 80MHz
+sudo iwconfig wlx00c0cab2bc1a mode monitor
+sudo ifconfig wlx00c0cab2bc1a up
+sudo iw phy phy1 set channel 60 80MHz
+sudo ifconfig wlx00c0cab2bc1a down; sudo iwconfig wlx00c0cab2bc1a mode managed; sudo ifconfig wlx00c0cab2bc1a up;
+iwconfig wlx00c0cab2bc1a
+
+## MODO FISICO (Alfa2 - AX)
+sudo ifconfig wlx00c0cab3c2de down; sudo iwconfig wlx00c0cab3c2de mode monitor; sudo ifconfig wlx00c0cab3c2de up; sudo iw phy phy4 set channel 36 80MHz
+sudo iwconfig wlx00c0cab3c2de mode monitor
+sudo ifconfig wlx00c0cab3c2de up
+sudo iw phy phy4 set channel 60 80MHz
+sudo ifconfig wlx00c0cab3c2de down; sudo iwconfig wlx00c0cab3c2de mode managed; sudo ifconfig wlx00c0cab3c2de up;
+iwconfig wlx00c0cab3c2de
+
+## MODO FISICO (Intel)
+sudo ifconfig wlp0s20f3 down; sudo iwconfig wlp0s20f3 mode monitor; sudo ifconfig wlp0s20f3 up; sudo iw phy phy0 set channel 36 80MHz
+sudo iwconfig wlp0s20f3 mode monitor
+sudo ifconfig wlp0s20f3 up
+sudo iw phy phy0 set channel 60 80MHz
+sudo ifconfig wlp0s20f3 down; sudo iwconfig wlp0s20f3 mode managed; sudo ifconfig wlp0s20f3 up;
+iwconfig wlp0s20f3
+
+### FILTRO WIRESHARK PAQUETES IPERF
+(((((udp) && (udp.srcport == 5201))) && (data.len == 125)) && (wlan.ra == 30:DE:4B:D2:61:47)) && !(wlan.fcs.status == "Bad")
+
+
+wlan.fc.type_subtype != 0x08 && wlan.fc.type_subtype != 0x1c && wlan.fc.type_subtype != 0x1d && wlan.fc.type_subtype != 0x2c && wlan.fc.type_subtype != 0x1e && wlan.fc.type_subtype != 0x19 && wlan.fc.type_subtype != 0x05 && wlan.fc.type_subtype != 0x04
+wlan.sa == 70:d8:23:d3:b4:bd && (wlan.fc.type_subtype != 0x08 && wlan.fc.type_subtype != 0x1c && wlan.fc.type_subtype != 0x1d && wlan.fc.type_subtype != 0x2c && wlan.fc.type_subtype != 0x1e && wlan.fc.type_subtype != 0x19 && wlan.fc.type_subtype != 0x05 && wlan.fc.type_subtype != 0x04)
+ip.src == 192.168.251.175
