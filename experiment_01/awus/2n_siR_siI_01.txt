@@ -1,0 +1,349 @@
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-36 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-37 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-36 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-37 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-40 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-39 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-36 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-34 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-35 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-39 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-38 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-38 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-36 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-35 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=64/70 RSSI=-46 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=70/70 RSSI=-46 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=65/70 RSSI=-45 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=67/70 RSSI=-43 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=58/70 RSSI=-52 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=59/70 RSSI=-51 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=58/70 RSSI=-52 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=54/70 RSSI=-56 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=57/70 RSSI=-53 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=58/70 RSSI=-52 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=53/70 RSSI=-57 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=54/70 RSSI=-56 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=49/70 RSSI=-61 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=45/70 RSSI=-65 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=47/70 RSSI=-63 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=45/70 RSSI=-65 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=42/70 RSSI=-68 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=43/70 RSSI=-67 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=40/70 RSSI=-70 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=433.3 Mb/s
+Ptx=15 dBm
+Link Quality=37/70 RSSI=-73 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=351 Mb/s
+Ptx=15 dBm
+Link Quality=39/70 RSSI=-71 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=351 Mb/s
+Ptx=3 dBm
+Link Quality=32/70 RSSI=-78 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=325 Mb/s
+Ptx=15 dBm
+Link Quality=33/70 RSSI=-77 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=351 Mb/s
+Ptx=3 dBm
+Link Quality=40/70 RSSI=-70 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=351 Mb/s
+Ptx=15 dBm
+Link Quality=31/70 RSSI=-79 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=325 Mb/s
+Ptx=15 dBm
+Link Quality=33/70 RSSI=-77 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=263.3 Mb/s
+Ptx=15 dBm
+Link Quality=35/70 RSSI=-81 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=200 Mb/s
+Ptx=15 dBm
+Link Quality=37/70 RSSI=-73 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=260 Mb/s
+Ptx=15 dBm
+Link Quality=27/70 RSSI=-83 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=234 Mb/s
+Ptx=15 dBm
+Link Quality=25/70 RSSI=-85 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=260 Mb/s
+Ptx=11 dBm
+Link Quality=28/70 RSSI=-82 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=200 Mb/s
+Ptx=11 dBm
+Link Quality=24/70 RSSI=-86 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=195 Mb/s
+Ptx=15 dBm
+Link Quality=32/70 RSSI=-78 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=234 Mb/s
+Ptx=15 dBm
+Link Quality=33/70 RSSI=-77 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=175.5 Mb/s
+Ptx=15 dBm
+Link Quality=28/70 RSSI=-82 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:69:7B    node=Node_1
+Frequency=5.22 GHz  Vt=135 Mb/s
+Ptx=15 dBm
+Link Quality=27/70 RSSI=-83 dBm
+---------------------------
+ESSID=off/any   MAC_AP= node=Node_3
+Frequency=   Vt= 
+Ptx= 
+Link Quality= RSSI= 
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=117 Mb/s
+Ptx=15 dBm
+Link Quality=46/70 RSSI=-64 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=351 Mb/s
+Ptx=15 dBm
+Link Quality=43/70 RSSI=-67 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=390 Mb/s
+Ptx=15 dBm
+Link Quality=50/70 RSSI=-60 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=390 Mb/s
+Ptx=15 dBm
+Link Quality=51/70 RSSI=-59 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=390 Mb/s
+Ptx=15 dBm
+Link Quality=46/70 RSSI=-64 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=351 Mb/s
+Ptx=15 dBm
+Link Quality=52/70 RSSI=-58 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=351 Mb/s
+Ptx=15 dBm
+Link Quality=50/70 RSSI=-60 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=351 Mb/s
+Ptx=15 dBm
+Link Quality=47/70 RSSI=-63 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=351 Mb/s
+Ptx=15 dBm
+Link Quality=46/70 RSSI=-64 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=390 Mb/s
+Ptx=15 dBm
+Link Quality=42/70 RSSI=-68 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=390 Mb/s
+Ptx=15 dBm
+Link Quality=52/70 RSSI=-58 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=390 Mb/s
+Ptx=15 dBm
+Link Quality=45/70 RSSI=-65 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=390 Mb/s
+Ptx=15 dBm
+Link Quality=40/70 RSSI=-70 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=390 Mb/s
+Ptx=15 dBm
+Link Quality=43/70 RSSI=-67 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=390 Mb/s
+Ptx=15 dBm
+Link Quality=44/70 RSSI=-66 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=292.6 Mb/s
+Ptx=15 dBm
+Link Quality=46/70 RSSI=-64 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=351 Mb/s
+Ptx=15 dBm
+Link Quality=41/70 RSSI=-69 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=351 Mb/s
+Ptx=15 dBm
+Link Quality=43/70 RSSI=-67 dBm
+---------------------------
+ESSID="GTE_MESH"   MAC_AP= 30:DE:4B:D2:61:47    node=Node_2
+Frequency=5.22 GHz  Vt=351 Mb/s
+Ptx=15 dBm
+Link Quality=46/70 RSSI=-64 dBm
